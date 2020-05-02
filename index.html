@@ -22,13 +22,13 @@
     var url = purl();
     if (url.attr('host') == 'weikeqin.github.io') {
         var old_url = url.attr('source');
-        var new_url = old_url.replace('weikeqin.github.io/domain_redirection.github.io', "weikeqin.com");
+        var new_url = old_url.replace('weikeqin.github.io/domain_redirection.github.io', "weikeqin.com").replace('weikeqin.github.io/domain_redirection_pro.github.io', "weikeqin.com");
         console.log("old_url = " + old_url);
         console.log("new_url = " + new_url);
         window.location.replace(new_url);
     } else if (url.attr('host') == 'www.weikeqin.github.io') {
         var old_url = url.attr('source');
-        var new_url = old_url.replace('www.weikeqin.github.io/domain_redirection.github.io', "weikeqin.com");
+        var new_url = old_url.replace('www.weikeqin.github.io/domain_redirection.github.io', "weikeqin.com").replace('www.weikeqin.github.io/domain_redirection_pro.github.io', "weikeqin.com");
         console.log("old_url = " + old_url);
         console.log("new_url = " + new_url);
         window.location.replace(new_url);
